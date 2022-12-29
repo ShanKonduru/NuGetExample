@@ -3,17 +3,25 @@
 using System.Text.RegularExpressions;
 using System.Xml;
 
-string currentValue = "1.23.456";
+string currentValue = "1.23.456.789";
 Version  curVersion = new(currentValue);
 Console.WriteLine("Current verion " + curVersion.ToString());
+
 Version  newVersion = MyVersion.AddMajorVersion(curVersion);
 Console.WriteLine("After Updating Major " + newVersion.ToString());
+
 newVersion = MyVersion.AddMinorVersion(curVersion);
 Console.WriteLine("After Updating Minor " + newVersion.ToString());
+
 newVersion = MyVersion.AddBuildVersion(curVersion);
 Console.WriteLine("After Updating Build " + newVersion.ToString());
 newVersion = MyVersion.AddBuildVersion(curVersion, 1000);
 Console.WriteLine("After Updating Build " + newVersion.ToString());
+
+newVersion = MyVersion.AddRevisionVersion(curVersion);
+Console.WriteLine("After Updating Revision " + newVersion.ToString());
+newVersion = MyVersion.AddRevisionVersion(curVersion, 1000);
+Console.WriteLine("After Updating Revision " + newVersion.ToString());
 
 /*
 using System.Text.RegularExpressions;
