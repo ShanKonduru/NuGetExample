@@ -1,0 +1,12 @@
+C:\Users\E001150\Desktop\NuGetExample\bin\Debug\net7.0\ScientificCalculator.deps.json
+C:\Users\E001150\Desktop\NuGetExample\bin\Debug\net7.0\ScientificCalculator.dll
+C:\Users\E001150\Desktop\NuGetExample\bin\Debug\net7.0\ScientificCalculator.pdb
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\ScientificCalculator.csproj.AssemblyReference.cache
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\ScientificCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\ScientificCalculator.AssemblyInfoInputs.cache
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\ScientificCalculator.AssemblyInfo.cs
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\ScientificCalculator.csproj.CoreCompileInputs.cache
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\ScientificCalculator.dll
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\refint\ScientificCalculator.dll
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\ScientificCalculator.pdb
+C:\Users\E001150\Desktop\NuGetExample\obj\Debug\net7.0\ref\ScientificCalculator.dll

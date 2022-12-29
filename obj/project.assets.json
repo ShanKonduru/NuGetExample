@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E001150\\Desktop\\NuGetExample\\NuGetExample.csproj",
-      "projectName": "NuGetExample",
-      "projectPath": "C:\\Users\\E001150\\Desktop\\NuGetExample\\NuGetExample.csproj",
+      "projectUniqueName": "C:\\Users\\E001150\\Desktop\\NuGetExample\\ScientificCalculator.csproj",
+      "projectName": "ScientificCalculator",
+      "projectPath": "C:\\Users\\E001150\\Desktop\\NuGetExample\\ScientificCalculator.csproj",
       "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\E001150\\Desktop\\NuGetExample\\obj\\",
       "projectStyle": "PackageReference",
