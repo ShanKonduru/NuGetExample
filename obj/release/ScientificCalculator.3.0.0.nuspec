@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>ScientificCalculator</id>
-    <version>1.0.0</version>
+    <version>3.0.0</version>
     <authors>ScientificCalculator</authors>
     <description>Package Description</description>
     <dependencies>
@@ -10,6 +10,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\E001150\Desktop\NuGetExample\bin\Debug\net7.0\ScientificCalculator.dll" target="lib\net7.0\ScientificCalculator.dll" />
+    <file src="C:\Users\E001150\Desktop\NuGetExample\bin\release\net7.0\ScientificCalculator.dll" target="lib\net7.0\ScientificCalculator.dll" />
   </files>
 </package>

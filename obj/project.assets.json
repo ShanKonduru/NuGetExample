@@ -11,7 +11,7 @@
     "C:\\Users\\E001150\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "4.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\E001150\\Desktop\\NuGetExample\\ScientificCalculator.csproj",
       "projectName": "ScientificCalculator",
