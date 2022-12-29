@@ -11,4 +11,7 @@ add a Add method as follows
 public static int Add(int x, int y ){
         return x + y;
     }
-dotnet build
+dotnet build 
+dotnet build  -c release
+dotnet pack -c release 
+
