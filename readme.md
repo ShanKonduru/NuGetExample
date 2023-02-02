@@ -7,24 +7,25 @@
   <li>Add NuGet Spec file</li>
   <li>Generate NuGet Files</li>
 </ul>
-Open command window 
-Create a Folder say C:\Users\E001150\Desktop\ScientificCalculator 
-navigate to C:\Users\E001150\Desktop\ScientificCalculator folder 
-open VS code 
-open terminal window 
-type git init 
-dotnet new classlib 
-rename class1.cs file to ScientificCalculator.cs 
-rename class1 name to ScientificCalculator 
-add a Add method as follows 
+
+<h2>step #1</h2><br>Open command window<br>
+Create a Folder say C:\Users\E001150\Desktop\ScientificCalculator<br> 
+navigate to C:\Users\E001150\Desktop\ScientificCalculator folder <br>
+open VS code <br>
+open terminal window<br> 
+type git init <br>
+dotnet new classlib<br> 
+rename class1.cs file to ScientificCalculator.cs<br> 
+rename class1 name to ScientificCalculator <br>
+add a Add method as follows <br>
 public static int Add(int x, int y )
 { return x + y; } 
-dotnet build 
-dotnet build -c release 
-dotnet pack -c release 
-Observe the nupkg files get created ".\bin\release" folder 
-now add a file called "ScientificCalculator.csproj.nuspec" 
-add the following content to it.
+dotnet build <br>
+dotnet build -c release <br>
+dotnet pack -c release <br>
+Observe the nupkg files get created ".\bin\release" folder <br>
+now add a file called "ScientificCalculator.csproj.nuspec"<br> 
+add the following content to it.<br>
 <?xml version="1.0"?>
 <package>
   <metadata>
@@ -43,7 +44,7 @@ add the following content to it.
   </files>
 </package>
 
-dotnet pack -c release - Observe the nupkg files get created ".\bin\release" folder 
-cd .\bin\releaes
-nuget push *.nupkg -Source Artifactory
-nuget sources Add -Name ScientificCalculatorArtifactory -Source https://shankonduru.jfrog.io/artifactory/api/nuget/v3/shankonduru-nuget -username shankonduru@gmail.com -password AKCp8nHPXkEA5DUwSoRSYtoUJkUaBGVDgoZX9gyjdS7CTqvRRAeRMPnzqwWx7sJLjkHnEqVCQ
+dotnet pack -c release - Observe the nupkg files get created ".\bin\release" folder <br>
+cd .\bin\releaes<br>
+nuget push *.nupkg -Source Artifactory<br>
+nuget sources Add -Name ScientificCalculatorArtifactory -Source https://shankonduru.jfrog.io/artifactory/api/nuget/v3/shankonduru-nuget -username shankonduru@gmail.com -password AKCp8nHPXkEA5DUwSoRSYtoUJkUaBGVDgoZX9gyjdS7CTqvRRAeRMPnzqwWx7sJLjkHnEqVCQ<br>
