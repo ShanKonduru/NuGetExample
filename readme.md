@@ -38,6 +38,8 @@ Observe the nupkg files get created ".\bin\release" folder <br>
 <h2>Add NuGet Spec file</h2>
 now add a file called "ScientificCalculator.csproj.nuspec"<br> 
 add the following content to it.<br>
+<pre>
+<code>
 <?xml version="1.0"?>
 <package>
   <metadata>
@@ -55,6 +57,8 @@ add the following content to it.<br>
     <file src="bin\release\net7.0\*.*" target="net7.0" />
   </files>
 </package>
+</pre>
+</code>
 <br>
 <br>
 <h2>Generate NuGet Files</h2>
